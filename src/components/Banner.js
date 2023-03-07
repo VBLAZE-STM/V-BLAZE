@@ -54,7 +54,7 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once:false,amount:0.7}} className=" flex max-w-max gap-x-6 items-center  mb-12 mx-auto lg:mx-0">
               <button className="btn btn-lg">join us</button>
-              <a href="#" className="text-gradient btn-link">
+              <a href="#contact" className="text-gradient btn-link">
                 contact us
               </a>
             </motion.div>

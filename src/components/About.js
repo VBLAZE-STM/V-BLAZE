@@ -3,7 +3,7 @@ import React from 'react';
 import CountUp from 'react-countup';
 import { fadeIn } from "../variants";
 import { useInView } from 'react-intersection-observer';
- 
+
 const About = () => {
   const[ref,inView]=useInView({
     threshold:0.5,
@@ -81,6 +81,7 @@ flexible for your unique needs and preferences.</p>
         </motion.div>
       </div>
     </div>
+ 
     
   </section>)
 };

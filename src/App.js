@@ -7,6 +7,8 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Footer from './components/footer';
+import Experience from './components/experience';
 
 const App = () => {
   return (
@@ -15,10 +17,12 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
+      <Experience/>
       <Services />
       <Work />
       <Contact />
-       <div className='h-[4000px]'></div>
+      <Footer/>
+       {/* <div className='h-[3500px]'></div> */}
     </div>
   );
 };
