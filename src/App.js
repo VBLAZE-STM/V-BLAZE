@@ -9,17 +9,20 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Footer from './components/footer';
 import Experience from './components/experience';
-
+import Sidebar from './components/sidebar';
+import Teams from "./pages/team";
 const App = () => {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
       <Header />
       <Banner />
+      <Sidebar/>
       <Nav />
       <About />
       <Experience/>
       <Services />
       <Work />
+      <Teams/>
       <Contact />
       <Footer/>
        {/* <div className='h-[3500px]'></div> */}

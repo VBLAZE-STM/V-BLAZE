@@ -6,6 +6,7 @@ import Webdev from "../assets/webdev.svg";
 import Webdes from "../assets/webdes.svg";
 import Mob from "../assets/mob.svg";
 import Ui from "../assets/ui.svg";
+import { Link } from 'react-scroll';
 
 const services=[
   {
@@ -39,7 +40,8 @@ const Services = () => {
         viewport={{once:false,amount:0.5}}  className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
           <h2 className='h2 text-accent mb-6 '>our services</h2>
           <h3 className='h3 max-w-[400px] text-[20px] mb-16'>We as a Web Design Club are always ready to contribute to the growth of your company by offering a fully functional and appealing web solution, no matter your company is small, medium or a large one.</h3>
-          <button className='btn btn-sm' >our works</button>
+          <Link to='work' >
+          <button className='btn btn-sm' >our works</button></Link>
        
         </motion.div>
 
