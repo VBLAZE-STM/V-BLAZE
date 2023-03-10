@@ -27,6 +27,10 @@ const router = createBrowserRouter([
     path: "team",
     element:<Team/>,
   },
+  {
+    path: "/V-BLAZE",
+    element:<App/>,
+  },
   
 ]);
 
