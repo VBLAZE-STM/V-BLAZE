@@ -19,7 +19,7 @@ export const Team = () => {
   initial='hidden'
   whileInView={'show'}
   viewport={{once:false,amount:0.3}} >
-    <h2 className="h2 text-accent text-center text-center uppercase">Development team</h2>
+    <h2 className="h2 text-accent  text-center uppercase">Development team</h2>
 		<h3 className="h3 font-bold leading-none text-center ">The talented people behind the scenes</h3>
 		</motion.div>
     <div className="flex flex-row flex-wrap-reverse justify-center mt-8">
