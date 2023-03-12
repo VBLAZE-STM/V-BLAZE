@@ -143,6 +143,15 @@ export const data = [
         Instagram: "http://instagram.com/go_ose_be_rr_y?utm_source=qr",
         img: Crisbin
       },
+      {
+        id: "11",
+        name: "Muhammad Rasi K P",
+        position: "FRONTEND DEVELOPER",
+        GitHub: "https://github.com/rasi-kp",
+        LinkedIn: "https://www.linkedin.com/in/muhammed-rasi-k-p-820498240",
+        Instagram: "https://www.instagram.com/rasi_k_p",
+        img: Rasi
+    },
     {
         id: "10",
         name: "Muhammed Minhaj Mahroof",
@@ -152,15 +161,7 @@ export const data = [
         Instagram: "",
         img: Minhaj
       },
-      {
-        id: "11",
-        name: "Muhammad Rasi K P",
-        position: "FRONTEND DEVELOPER",
-        GitHub: "https://github.com/rasi-kp",
-        LinkedIn: "https://www.linkedin.com/in/muhammed-rasi-k-p-820498240",
-        Instagram: "https://www.instagram.com/rasi_k_p",
-        img: Rasi
-    }
+  
 
 
 
