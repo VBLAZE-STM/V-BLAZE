@@ -85,20 +85,18 @@ const Experience = () => {
   ];
 
   return (
-    <section className='section' id='about'>
-    <div
-      className='container mx-auto'
-    >
+    <section className='section mt-30' id='about'>
+    <div className='container mx-auto'>
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <motion.div
         variants={fadeIn('right',0.3)}
         initial='hidden'
         whileInView={'show'}
         viewport={{once:false,amount:0.3}}>
-          <h2 className="h2 text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <h2 className="h2  leading-tight text-accent  ">
             Experience
           </h2>
-          <p className="py-6">These are the technologies we've worked with</p>
+          <p className="max-w-sm mb-16">These are the technologies we've worked with</p>
         </motion.div>
 
         <motion.div

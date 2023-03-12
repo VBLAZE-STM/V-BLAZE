@@ -1,38 +1,28 @@
-import img1 from "../src/assets/portfolio-img1.png";
+import Ignite from "../src/assets/projects/ignite.png";
+import IEDC from "../src/assets/projects/IEDC.png";
+import WDC from "../src/assets/projects/WebDC.png";
 
 export const Prodata = [
     ,{
       id:1 ,
       title:'WEBPAGE',
-      name:'IEDC-STM',
-      img:img1,
-      src:"https://pradul-p.github.io/IEDC/" 
+      name:'IGNITE',
+      img:Ignite,
+      src:"https://www.stthomaskannur.ac.in/ignite2022/" 
      },
      {
-      id:1 ,
-      title:'WEBPE',
-      name:'IEDC-SM',
-      img:img1,
-      src:"https://pradul-p.github.io/IEDC/" 
+      id:2 ,
+      title:'WEBPAGE',
+      name:'IEDC-STM',
+      img:IEDC,
+      src:"https://www.stthomaskannur.ac.in/stm2/IEDC/" 
      },{
-      id:1 ,
-      title:'PAGE',
-      name:'IE-STM',
-      img:img1,
-      src:"https://pradul-p.github.io/IEDC/" 
-     }, {
-      id:1 ,
-      title:'PAGE',
-      name:'IE-STM',
-      img:img1,
-      src:"https://pradul-p.github.io/IEDC/" 
-     },     
+      id:3 ,
+      title:'WEBPAGE',
+      name:'WEBSITE DESIGN CHALLENGE',
+      img:WDC,
+      src:"https://wdc.vblaze.tech/" 
+     },    
         
-   
-         
-         
-        
-        
-  
    
     ];

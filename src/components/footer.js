@@ -15,13 +15,13 @@ function footer() {
       </div>
          <div 
            className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#">
+              <a href="https://github.com/VBLAZE-STM">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/vblaze-edu/">
                 <FaLinkedin />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/vblaze_stm/">
                 <FaInstagram/>
               </a>
             </div>

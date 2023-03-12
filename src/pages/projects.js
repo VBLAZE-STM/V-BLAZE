@@ -1,16 +1,16 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import img1 from "../assets/portfolio-img1.png";
+
 import { fadeIn } from '../variants';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Header from '../components/Header';
-// import Navbar from '../pages/navbar';
+
 import {Prodata} from "../ProjectData";
 const Work = () => {
   return (
   <div  className='bg-site   '>
    <Header/>
-   {/* <Navbar/> */}
+
    
    
       <div className="container mx-auto">
@@ -20,28 +20,16 @@ const Work = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false,amount:0.3}} 
-           className='flex-1 flex justify-start items-center'>
-            <div >
-              <h2 className='h2 leading-tight text-accent'>our  works</h2>
-              <p className='max-w-sm mb-16'>We as a Web Design Club are always ready to contribute to the growth of your company by offering a fully functional and appealing web solution,
-              </p>
+           className='container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10'>
+            
+            
+		<h2 className="h2 text-accent text-center ">our  works</h2>
+		<p className="max-w-2xl text-center">We as a Web Design Club are always ready to contribute to the growth of your company by offering a fully functional and appealing web solution,</p>
+		
+		
               {/* <Link to='/'  className='btn btn-sm'>view all projects</Link> */}
-            </div>
-            {/* <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
-              <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-              <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>
-                ui/ux design
-                  </span> 
-                </div>
-              
-              <div className='absolute -bottom-full left-12 
-              group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>project Title</span>
-              </div>
-            </div> */}
-
+            
+          
           </motion.div>
           
           <div 
@@ -67,7 +55,7 @@ const Work = () => {
               </div>
               <div className='absolute -bottom-full right-12 
               group-hover:bottom-14 transition-all duration-700 z-50'>
-              <a href={item.src} className="text-gradient btn-link">
+              <a href={item.src} className="text-gradient btn-link" target="_blank">
                 view
               </a>
               </div>

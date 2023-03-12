@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import { BsArrowBarRight } from 'react-icons/bs';
 import { fadeIn } from '../variants';
-import Webdev from "../assets/webdev.svg";
-import Webdes from "../assets/webdes.svg";
-import Mob from "../assets/mob.svg";
-import Ui from "../assets/ui.svg";
+import Webdev from "../assets/service/webdev.svg";
+import Webdes from "../assets/service/webdes.svg";
+import Mob from "../assets/service/mob.svg";
+import Ui from "../assets/service/ui.svg";
 import { Link } from 'react-scroll';
 
 const services=[
@@ -25,12 +25,12 @@ const services=[
   },
 {
   name:'UI/UX design',
-  description:'We are custom software application development services provide the IT ckbone of our clients business strategieswhen packaged software',
+  description:'UI/UX design is a critical aspect of website design that focuses on creating interfaces that are both visually appealing and user-friendly',
    image:Ui
 }]
 const Services = () => {
   return (
-    <section className='section'id='services'>
+    <section className='section mt-40'id='services'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row '>
         <motion.div

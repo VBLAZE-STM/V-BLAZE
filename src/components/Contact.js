@@ -4,7 +4,7 @@ import { fadeIn } from '../variants';
 
 const Contact = () => {
   return (
-    <section className='py-1  lg:section ' id='contact'>
+    <section className='mt-40  lg:section ' id='contact'>
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row'>
           <motion.div

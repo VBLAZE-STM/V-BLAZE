@@ -1,11 +1,13 @@
-import React from "react";
-import { BsBriefcase, BsClipboardData } from "react-icons/bs";
+import React, { useEffect, useState } from "react";
+import { BsBriefcase, BsClipboardData, BsPersonBadge } from "react-icons/bs";
 import { BiHomeAlt, BiPhone, BiUser } from "react-icons/bi";
 import { Link } from "react-scroll";
 
 const Nav = () => {
+
   return (
-    <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
+    
+    <nav className="bottom-2 fixed  lg:bottom-8 w-full overflow-hidden z-50">
       <div className="container mx-auto">
         <div
           className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full 
@@ -31,7 +33,7 @@ const Nav = () => {
             <BiUser />
           </Link>
           <Link
-            to="services"
+            to="work"
             activeClass="active"
             smooth={true}
             spy={true}
@@ -40,13 +42,13 @@ const Nav = () => {
             <BsClipboardData />
           </Link>
           <Link
-            to="work"
+            to="team"
              activeClass="active"
              smooth={true}
             spy={true}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
-            <BsBriefcase />
+            <BsPersonBadge />
           </Link>
           <Link
             to="contact"

@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Team from './pages/teams';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
     path: "/V-BLAZE",
     element:<App/>,
   },
+ 
   
 ]);
 

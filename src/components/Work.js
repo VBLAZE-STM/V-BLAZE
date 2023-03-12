@@ -1,12 +1,14 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import img1 from "../assets/portfolio-img1.png";
+
+import Ignite from "../assets/projects/ignite.png";
+import IEDC from "../assets/projects/IEDC.png";
 import { fadeIn } from '../variants';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const Work = () => {
   return (
-  <div className='section' id='work'>
+  <div className='section mt-40 ' id='work'>
    
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row gap-x-10'>
@@ -23,30 +25,17 @@ const Work = () => {
             <Link to='/projects'>
              <button  className='btn btn-sm'>view all projects</button></Link>
             </div>
-            {/* <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
-              <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-              <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>
-                ui/ux design
-                  </span> 
-                </div>
-              
-              <div className='absolute -bottom-full left-12 
-              group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>project Title</span>
-              </div>
-            </div> */}
-
+           
           </motion.div>
           <motion.div 
           variants={fadeIn('down',0.3)}
           initial='hidden'
           whileInView={'show'}
-          viewport={{once:false,amount:0.3}} className='flex-1 flex-col flex gap-y-10'>
+          viewport={{once:false,amount:0.3}} 
+          className='flex-1 flex-col flex gap-y-10 py-10'>
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-              <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
+              <img className='group-hover:scale-125 transition-all duration-500' src={IEDC} alt="" />
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>
                 WEBPAGE
@@ -60,14 +49,14 @@ const Work = () => {
               </div>
               <div className='absolute -bottom-full right-12 
               group-hover:bottom-14 transition-all duration-700 z-50'>
-              <a href="https://pradul-p.github.io/IEDC/" className="text-gradient btn-link">
+              <a href="https://www.stthomaskannur.ac.in/stm2/IEDC/" className="text-gradient btn-link" target="_blank">
                 view
               </a>
               </div>
             </div>
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-              <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
+              <img className='group-hover:scale-125 transition-all duration-500' src={Ignite} alt="" />
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>
                WEBPAGE
@@ -76,11 +65,11 @@ const Work = () => {
               
               <div className='absolute -bottom-full left-12 
               group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>IGNITE-2020</span>
+                <span className='text-3xl text-white'>IGNITE-2K22</span>
               </div>
               <div className='absolute -bottom-full right-12 
               group-hover:bottom-14 transition-all duration-700 z-50'>
-              <a href="https://pradul-p.github.io/ignite/" className="text-gradient btn-link">
+              <a href="https://www.stthomaskannur.ac.in/ignite2022/" className="text-gradient btn-link" target="_blank">
                 view
               </a>
               </div>

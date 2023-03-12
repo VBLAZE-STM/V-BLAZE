@@ -44,7 +44,7 @@ const Banner = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false,amount:0.7}} 
-            className="mb-8 max-w-max mx-auto lg:mx-0">
+            className="mb-8 max-w-max mx-auto lg:mx-0 ">
               St. Thomas College of Engineering and Technology Mattannur, Kannur
               - Designing Club
             </motion.p>
@@ -63,13 +63,13 @@ const Banner = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false,amount:0.7}}className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#">
+              <a href="https://github.com/VBLAZE-STM">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/vblaze-edu/">
                 <FaLinkedin />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/vblaze_stm/">
                 <FaInstagram />
               </a>
             </motion.div>
