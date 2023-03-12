@@ -9,9 +9,57 @@ import Niranj from "../src/assets/VBLAZE Team-members/Niranj.jpeg";
 import NEVIN from "../src/assets/VBLAZE Team-members/NEVIN R PRADEEP.jpeg";
 import Sruthi from "../src/assets/VBLAZE Team-members/Sruthi.jpeg";
 import Rajath from "../src/assets/VBLAZE Team-members/Rajath.jpeg";
-
+import SHEETAL from "../src/assets/VBLAZE Team-members/Sheetal.jpeg";
+import Diya from "../src/assets/VBLAZE Team-members/Diya.jpeg";
+import Athul from "../src/assets/VBLAZE Team-members/Athul.jpeg";
+import Saran from "../src/assets/VBLAZE Team-members/Saran.jpeg";
+import Keerthana from "../src/assets/VBLAZE Team-members/Keerthana.jpeg";
 export const data = [
-  
+  {
+    id: "12",
+    name: "SHEETAL MADHU",
+    position: "FRONTEND DEVELOPER",
+    GitHub: "",
+    LinkedIn: "https://www.linkedin.com/in/sheetalmadhu030",
+    Instagram: "",
+    img: SHEETAL
+  },
+  {
+    id: "13",
+    name: "Fathima Diya Muhammed C M",
+    position: "FRONTEND DEVELOPER",
+    GitHub: "",
+    LinkedIn: "https://www.linkedin.com/in/fathima-diya-muhammed-c-m-2330b7254",
+    Instagram: "https://instagram.com/_.diyaah",
+    img: Diya
+  },
+  {
+    id: "14",
+    name: "Athul A",
+    position: "FRONTEND DEVELOPER",
+    GitHub: "https://github.com/Athul-A-Kannur",
+    LinkedIn: "",
+    Instagram: "https://instagram.com/athul_a._?igshid=ZDdkNTZiNTM=",
+    img: Athul
+  },
+  {
+    id: "15",
+    name: "Saran Scaria",
+    position: "FRONTEND DEVELOPER",
+    GitHub: "https://github.com/SaranScaria",
+    LinkedIn: "www.linkedin.com/mwlite/in/saran-sc",
+    Instagram: "https://instagram.com/_saran.ig?igshid=YmMyMTA2M2Y=",
+    img: Saran
+  },
+  {
+    id: "16",
+    name: "Keerthana. K",
+    position: "FRONTEND DEVELOPER",
+    GitHub: "https://github.com/Keerthana2005",
+    LinkedIn: "https://www.linkedin.com/in/keerthana-k-791339254",
+    Instagram: "",
+    img: Keerthana
+  },
   
     {
         id: "1",
