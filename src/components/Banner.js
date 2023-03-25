@@ -62,7 +62,8 @@ const Banner = () => {
             variants={fadeIn('left',0.5)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{once:false,amount:0.7}}className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
+            viewport={{once:false,amount:0.7}}
+            className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
               <a href="https://github.com/VBLAZE-STM">
                 <FaGithub />
               </a>

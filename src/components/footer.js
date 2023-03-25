@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 import React from 'react'
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
-import { fadeIn } from '../variants'
+// import { fadeIn } from '../variants'
 import Logo from '../assets/image.png'
 function footer() {
   return (
@@ -13,8 +13,7 @@ function footer() {
         </a>
        
       </div>
-         <div 
-           className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
+         <div  className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
               <a href="https://github.com/VBLAZE-STM">
                 <FaGithub />
               </a>

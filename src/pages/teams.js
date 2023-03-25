@@ -4,8 +4,7 @@ import {data} from "../teamdata";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import Minhaj from "../assets/VBLAZE Team-members/Muhammed Minhaj Mahroof.jpeg";
-import Jithin from "../assets/VBLAZE Team-members/Jithin.jpeg";
+
 
 export const Team = () => {
 
