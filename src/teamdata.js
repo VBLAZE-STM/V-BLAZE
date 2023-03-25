@@ -41,6 +41,7 @@ export const data = [
         GitHub: "https://github.com/i-yam-three",
         LinkedIn: "https://www.linkedin.com/in/i-yam-three",
         Instagram: "https://instagram.com/i_yam_three_",
+      web: "http://i-yam-three.live",
         img: Minhaj
     },
     {
@@ -59,6 +60,7 @@ export const data = [
       GitHub: "https://github.com/PRADUL-P",
       LinkedIn: "https://www.linkedin.com/in/pradul/",
       Instagram: "https://www.instagram.com/pradul_prashandan/",
+      web: "https://pradul-p.github.io/",
       img: Pradul
     },
     {

@@ -68,15 +68,16 @@ const SocialLinks = () => {
               style
             }
           >
-            <a
+            {/* <a
               href={href}
               className="flex justify-between items-center w-full text-white"
               download={download}
               target="_blank"
               rel="noreferrer"
             >
-              {child}
-            </a>
+              
+            </a> */}
+            {child}
           </li>
         ))}
       </ul>

@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 
 import {data} from "../teamdata";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaGlobe, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
@@ -120,6 +120,11 @@ export const Team = () => {
 {data.Instagram ? (
   <a href={data.Instagram}>
     <FaInstagram />
+  </a>
+) : null}
+{data.web ? (
+  <a href={data.web}>
+    <FaGlobe />
   </a>
 ) : null}
 				</div>

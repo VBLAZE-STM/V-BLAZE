@@ -4,7 +4,7 @@ import React from 'react';
 import Ignite from "../assets/projects/ignite.png";
 import IEDC from "../assets/projects/IEDC.png";
 import { fadeIn } from '../variants';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
 const Work = () => {
   return (
