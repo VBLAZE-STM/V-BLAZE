@@ -12,32 +12,19 @@ import Experience from './components/experience';
 import Sidebar from './components/sidebar';
 import Teams from "./components/team";
 const App = () => {
-  const [yOffset, setYOffset] = useState(window.pageYOffset);
-  const [visible, setVisible] = useState(true);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
-
-  function handleScroll() {
-    const currentYOffset = window.pageYOffset;
-    const visible = yOffset > currentYOffset;
-
-    setYOffset(currentYOffset);
-    setVisible(visible);
-  }
+ 
+  
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
       <Header />
       <Banner />
       <Sidebar/>
-      <Nav visible={visible}/>
+      <Nav />
       <About />
       <Experience/>
       <Services />
       <Work />
-      <Teams/>
+      <Teams  />
       <Contact />
       <Footer/>
        {/* <div className='h-[3500px]'></div> */}

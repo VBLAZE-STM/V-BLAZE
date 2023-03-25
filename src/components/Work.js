@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const Work = () => {
   return (
-  <div className='section mt-40 ' id='work'>
+  <div className='section mt-40  ' id='work'>
    
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row gap-x-10'>
