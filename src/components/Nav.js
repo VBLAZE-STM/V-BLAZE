@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {  BsClipboardData, BsPersonBadge } from "react-icons/bs";
 import { BiHomeAlt, BiPhone, BiUser } from "react-icons/bi";
 import { Link } from "react-scroll";
